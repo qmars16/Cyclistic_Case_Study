@@ -47,14 +47,14 @@ FROM `raw_files.combined_data`
 WHERE (
   EXTRACT(HOUR FROM (ended_at - started_at)) * 60 +
   EXTRACT(MINUTE FROM (ended_at - started_at)) +
-  EXTRACT(SECOND FROM (ended_at - started_at)) / 60) >= 1440;   -- longer than a day - total rows = 5360
+  EXTRACT(SECOND FROM (ended_at - started_at)) / 60) >= 1440;   -- longer than a day 
 
 SELECT COUNT(*) AS less_than_a_minute
 FROM `raw_files.combined_data`
 WHERE (
   EXTRACT(HOUR FROM (ended_at - started_at)) * 60 +
   EXTRACT(MINUTE FROM (ended_at - started_at)) +
-  EXTRACT(SECOND FROM (ended_at - started_at)) / 60) <= 1;      -- less than a minute - total rows = 122283
+  EXTRACT(SECOND FROM (ended_at - started_at)) / 60) <= 1;      -- less than a minute 
 
 -- start_station_name, start_station_id - total 833064 rows with both start station name and id missing
 
@@ -62,21 +62,21 @@ SELECT DISTINCT start_station_name
 FROM `raw_files.combined_data`
 ORDER BY start_station_name;
 
-SELECT COUNT(ride_id) AS rows_with_start_station_null          -- return 833064 rows
+SELECT COUNT(ride_id) AS rows_with_start_station_null          
 FROM `raw_files.combined_data`
 WHERE start_station_name IS NULL OR start_station_id IS NULL;
 
--- end_station_name, end_station_id - total 892742 rows with both end station name and id missing
+-- end_station_name, end_station_id - rows with both end station name and id missing
 
 SELECT DISTINCT end_station_name
 FROM `raw_files.combined_data`
 ORDER BY end_station_name;
 
-SELECT COUNT(ride_id) AS rows_with_null_end_station          -- return 892742 rows
+SELECT COUNT(ride_id) AS rows_with_null_end_station          
 FROM `raw_files.combined_data`
 WHERE end_station_name IS NULL OR end_station_id IS NULL;
 
--- end_lat, end_lng - total 5858 rows with both missing
+-- end_lat, end_lng - rows with both missing
 
 SELECT COUNT(ride_id) AS rows_with_null_end_loc
 FROM `raw_files.combined_data`
