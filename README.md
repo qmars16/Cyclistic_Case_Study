@@ -2,18 +2,18 @@
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 ## Introduction
 In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#ask), [Prepare](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#prepare), [Process](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#process), [Analyze](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study#act).
+
 ### Quick links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) 
   
 Code Scripts:
-
-SQL files:
 [01. Data Combining](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Combining.sql)  
 [02. Data Exploration](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Exploration.sql) 
 [03. Data Cleaning](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Cleaning.R)  
 [04. Data Analysis](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Analysis.R)  
   
 Data Visualizations: [Tableau](https://public.tableau.com/app/profile/kumaresh.natarajan/viz/CyclisticDashboard_16955341346110/Dashboard1)  
+
 ## Background
 ### Cyclistic
 A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.   
