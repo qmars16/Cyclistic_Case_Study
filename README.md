@@ -88,7 +88,8 @@ R script: [Data Cleaning](https://github.com/qmars16/Cyclistic_Case_Study/blob/m
 3. Trips with duration less than a minute and longer than a day are excluded.
 
 After analyzing, we obtain a summary of the mean, median, max and min of the ride lengths for members and casual riders.
-![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/data%20summary.png)
+
+   ![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/data%20summary.png)
   
 ## Analyze and Share
 R script: [Data Analysis](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Analysis.R)  
@@ -99,17 +100,17 @@ The analysis question is: How do annual members and casual riders use Cyclistic 
 
 First of all, no. of members and casual riders are compared.  
 
-![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/membervscasual.png)
+   ![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/membervscasual.png)
   
 The members make 74.93% of the total while remaining 25.07% constitutes casual riders.
   
 Next the number of different bikes are examined.
-![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/typesofbikes.png)
+   ![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/typesofbikes.png)
 
 Classic bikes are the most common with 56%. Electric bikes make up 42% of the total bikes in circulation, and 2% of the bikes are docked.
 
 The average ride duration per day are examined for both types of riders.
-![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/avgduration_per_weekday.png)
+   ![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/avgduration_per_weekday.png)
 
 Using [Tableau](https://public.tableau.com/app/profile/kumaresh.natarajan/viz/CyclisticDashboard_16955341346110/Dashboard1), we visualize our final cleaned and explored data to come up with a dashboard.
 
