@@ -8,12 +8,10 @@ Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html
 Code Scripts:
 
 SQL files:
--[01. Data Combining](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Combining.sql)  
--[02. Data Exploration](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Exploration.sql) 
-
-R files:
--[03. Data Cleaning](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Cleaning.R)  
--[04. Data Analysis](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Analysis.R)  
+[01. Data Combining](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Combining.sql)  
+[02. Data Exploration](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Exploration.sql) 
+[03. Data Cleaning](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Cleaning.R)  
+[04. Data Analysis](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/Data%20Analysis.R)  
   
 Data Visualizations: [Tableau](https://public.tableau.com/app/profile/kumaresh.natarajan/viz/CyclisticDashboard_16955341346110/Dashboard1)  
 ## Background
@@ -105,11 +103,13 @@ First of all, no. of members and casual riders are compared.
 The members make 74.93% of the total while remaining 25.07% constitutes casual riders.
   
 Next the number of different bikes are examined.
+   
    ![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/typesofbikes.png)
 
 Classic bikes are the most common with 56%. Electric bikes make up 42% of the total bikes in circulation, and 2% of the bikes are docked.
 
 The average ride duration per day are examined for both types of riders.
+   
    ![image](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/images/avgduration_per_weekday.png)
 
 Using [Tableau](https://public.tableau.com/app/profile/kumaresh.natarajan/viz/CyclisticDashboard_16955341346110/Dashboard1), we visualize our final cleaned and explored data to come up with a dashboard.
