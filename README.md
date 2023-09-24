@@ -1,7 +1,7 @@
 # Google Data Analytics Capstone: Cyclistic Case Study
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 ## Introduction
-In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/README.md#ask), [Prepare](), [Process](), [Analyze](), [Share](), and [Act]().
+In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/README.md#ask),[Prepare](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/README.md#prepare),[Process](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/README.md#process), [Analyze](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/qmars16/Cyclistic_Case_Study/blob/main/README.md#act).
 
 ### Quick links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) 
